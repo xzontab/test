@@ -1,0 +1,77 @@
+/*селектор по тэгам */
+body{
+    margin: 0;
+    padding: 0;
+}
+/*селектор по тэгам */
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 10px 10px 10px;
+}
+/*селектор по индификатору*/
+div#d1 {background-color: green;}
+/*селектор по классу*/
+.first {
+    background-color: blue;
+}
+/*универсальный селектор */
+*{
+    font-family: helvetica, arial, sans-serif; 
+}
+/*селектор по индификатору */
+h1#heading{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+}
+/*селектор по тэгам */
+h1{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+/*селектор по тэгам */
+h2{
+    text-align: center;
+    color:black;
+    font-size: 15px;
+}
+/*селектор потомка*/
+p.paragraph{
+    color:green
+}
+/*селектор по классу */
+.wrap{
+    color:red;  
+}
+/*селектор атрибута */
+a[href="https://google.com"]{
+    color: whitesmoke;
+}
+/*селектор атрибута */
+a[href="https://yandex.ru"]{
+    color: pink;
+}
+/*селектор потомка */
+.first p {
+    background-color: blue;
+    text-decoration: line-through;
+}
+/*селектор дочерних элементов */
+#d3 > h2{
+    text-decoration: underline;
+}
+/*селектор сестринского элемента */
+#heading3 + p{
+    color:yellow;
+}
+/*селектор псевдокласса */
+a:hover{
+    text-decoration: none
+}
+/*селектор псевдоэлементов */
+h1::first-letter{
+    color:#d2d2d2
+}
